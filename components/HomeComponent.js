@@ -30,7 +30,7 @@ function RenderItem(props) {
         return (
             <Card
                 featuredTitle={'Contact Information'}
-                image={{uri: baseUrl + item.image}}>
+                image={{uri: baseUrl + item.image}}
             >
                 <Text style={{margin: 10}}>
                     {item.description}
